@@ -1,0 +1,8 @@
+{
+  "name": "license-plate-game",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "3f56ae93"
+}

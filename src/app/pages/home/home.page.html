@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      US: License Plate Game
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="functionality-wrapper">
+    <ion-button size="small" color="success" href="/new-trip">New Trip</ion-button>
+  </div>
+
+  <ion-list>
+    <ion-list-header>Existing Trips</ion-list-header>
+    <ion-item>
+      <ion-card class="trip-card" color="warning" button="true" href="/game/id">
+        <ion-card-header>
+          <ion-card-title>
+            Conference: SWS
+          </ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <div>Default State: OH</div>
+          <div>1 State Found</div>
+          <div>1 Plate Found</div>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+</ion-content>
